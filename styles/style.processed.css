@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header a {
+  padding: 0 0.25rem;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.logo {
+  font-weight: bold;
+  color: red;
+}
+
+.site-footer {
+  background: #E9E9E9;
+  padding: 1rem 0;
+}

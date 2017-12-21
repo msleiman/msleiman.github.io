@@ -1,0 +1,32 @@
+extends structure/_layout.pug
+
+block content
+
+	#about.about
+		.inner
+			h1 Front-end Developer
+			p
+				| i'm a Front End Developer living in London, UK.
+				br
+				|                 I specialize in front-end development (HTML5, CSS3, Javascript, RWD) and a good understanding of some backend (php, MySQL).
+			i.fab.fa-html5
+			i.fab.fa-css3-alt
+			i.fab.fa-js
+			i.fab.fa-node
+			i.fab.fa-sass
+			i.fab.fa-gulp
+					
+
+						
+	.latestProjects
+		h2.text-center Latest Projects
+		.portfolio
+
+	script#portfolio(type='text/x-handlebars-template').
+		{{#each portfolio}}
+		<div class="project">
+		<h5>{{client}} - {{skills}}</h5>
+		<img src="{{img}}" data-groups='["{{tag}}"]' alt="">
+		</div>
+		{{/each}}
+

@@ -1,0 +1,22 @@
+doctype html
+html(lang="en")
+
+head
+	meta(charset="utf-8")
+	meta(http-equiv='x-ua-compatible', content='ie=edge')
+	meta(name='viewport', content='width=device-width, initial-scale=1.0')
+	title Mo Sleiman Portfolio
+	link(rel='stylesheet', href='styles/style.css')
+	link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
+	link(href='https://fonts.googleapis.com/css?family=Raleway', rel='stylesheet')
+	script(src='js/jquery-3.0.0.min.js')
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js')
+	script(src='https://unpkg.com/shufflejs@5')
+	script(src='js/script.js')
+	script(src='https://use.fontawesome.com/releases/v5.0.1/js/all.js')
+
+body
+
+	include _header.pug
+	block content
+	include _footer.pug
