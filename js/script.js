@@ -25,12 +25,12 @@ $(function() {
     var context = {
         portfolio: [
         
-            { client: 'DHL Timeline', img: 'https://preview.ibb.co/ivZAx6/alibert.jpg', skills: 'skills', tag: 'css', link: 'https://discover.dhl.com/culture-hype/future-of-exports/those-that-did-it-first.html' },
-            { client: 'alibert', img: 'https://preview.ibb.co/ivZAx6/alibert.jpg', skills: 'skills', tag: 'css' },
-            { client: 'Baby Boy', img: 'https://preview.ibb.co/ce6CAR/babyboy.png', skills: 'css', tag: 'css' },
-            { client: 'Foxwood', img: 'https://preview.ibb.co/eiLuPm/foxwood.png', skills: 'skills', tag: 'css' },
-            { client: 'Hala Badredine', img: 'https://preview.ibb.co/n7BOH6/halabadredine.png', skills: 'skills', tag: 'css' },
-            { client: 'Portfolio', img: 'https://image.ibb.co/iefHc6/msleiman_portfolio.jpg', skills: 'skills', tag: 'css' },
+            { client: 'DHL Timeline', img: '/images/dhl-timeline.png', skills: 'Js - CSS', tag: 'css', link: 'https://discover.dhl.com/culture-hype/future-of-exports/those-that-did-it-first.html' },
+            { client: 'Alibert', img: 'https://preview.ibb.co/ivZAx6/alibert.jpg', skills: 'HTML - CSS', tag: 'css' },
+            { client: 'Baby Boy', img: 'https://preview.ibb.co/ce6CAR/babyboy.png', skills: 'HTML - CSS', tag: 'css' },
+            { client: 'Foxwood', img: 'https://preview.ibb.co/eiLuPm/foxwood.png', skills: 'HTML - CSS - JS', tag: 'css' },
+            { client: 'Hala Badredine', img: 'https://preview.ibb.co/n7BOH6/halabadredine.png', skills: 'HTML - CSS', tag: 'css' },
+            { client: 'Portfolio', img: 'https://image.ibb.co/iefHc6/msleiman_portfolio.jpg', skills: 'HTML - CSS', tag: 'css' },
             { client: 'Outdoors', img: 'https://preview.ibb.co/h1skVR/outdoors.jpg', skills: 'skills', tag: 'css' },
             { client: 'Robot and Spark', img: 'https://image.ibb.co/mq8EPm/robot_and_spark_small.jpg', skills: 'skills', tag: 'css' },
             { client: 'Sitara', img: 'https://preview.ibb.co/jGyEPm/sitara.png', skills: 'skills', tag: 'css' },
