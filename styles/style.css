@@ -47,22 +47,40 @@ table {
 
 .header {
   background: #1a5f6b;
-  height: 50px; }
+  height: 70px; }
   .header a {
     color: #fff;
     text-decoration: none; }
   .header .title {
     float: left;
-    width: 50%; }
+    width: 50%;
+    background: #1a5f6b; }
     .header .title h1 {
-      font-size: 16px;
-      padding: 20px; }
+      font-size: 26px;
+      padding: 22px; }
   .header .nav {
     float: right;
-    width: 50%; }
+    width: 50%;
+    background: #1a5f6b; }
     .header .nav ul {
       text-align: right;
       padding: 20px; }
+    .header .nav .svg-inline--fa {
+      font-size: 30px;
+      padding-right: 10px; }
+
+.header.fixed {
+  position: absolute;
+  z-index: 200000; }
+
+.fixed .title {
+  position: fixed;
+  left: 0;
+  top: 0; }
+
+.fixed .nav {
+  position: fixed;
+  right: 0; }
 
 .about {
   background: #1a5f6b;
@@ -116,7 +134,6 @@ table {
   .latestProjects .portfolio {
     width: 100%;
     margin: 0 auto;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box; }
     @media (max-width: 600px) {
       .latestProjects .portfolio {

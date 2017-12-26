@@ -21,7 +21,7 @@
     </div>
     <div class="nav">
       <ul class="menu">
-        <li class="current"><a href="index.html">Home</a></li>
+        <li class="current"><a href="https://twitter.com/mstwi" target="_blank"> <i class="fab fa-twitter-square"></i></a><a href="https://www.linkedin.com/in/mosleiman/" target="_blank"><i class="fab fa-linkedin"></i></a><a href="https://github.com/msleiman" target="_blank"><i class="fab fa-github-square"></i></a></li>
       </ul>
     </div>
   </div>
@@ -39,6 +39,7 @@
     {{#each portfolio}}
     <div class="project">
     <h5>{{client}}</h5>
+    <a href="{{link}}" target="_blank">
     <img src="{{img}}" data-groups='["{{tag}}"]' alt="">
     </div>
     {{/each}}

@@ -7,12 +7,12 @@ $( document ).ready(function() {
 
 
 
-// $(window).scroll(function(){
-//
-//     var height = window.innerHeight;
-//
-//
-// });
+$(window).scroll(function(){
+
+    $(".header").addClass('fixed')
+
+
+});
 
 $(function() {
     // Grab the template script
