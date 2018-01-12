@@ -24,8 +24,9 @@ $(function() {
     // Define our data object
     var context = {
         portfolio: [
-        
-            { client: 'DHL Timeline', img: '/images/dhl-timeline.png', skills: 'Js - CSS', tag: 'css', link: 'https://discover.dhl.com/culture-hype/future-of-exports/those-that-did-it-first.html' },
+            { client: 'DHL - Timeline', img: '/images/dhl-timeline.png', skills: 'Js - CSS', tag: 'css', link: 'https://goo.gl/a4jcvq' },
+            { client: 'Maverick - Allianz Project', img: '/images/allianzriseofdrones.png', skills: 'Js - CSS', tag: 'css', link: 'https://www.allianzriseofdrones.com/' },
+            { client: 'Molton Brown - INTO THE UNCHARTED', img: '/images/coastal-cypress.png', skills: 'Js - CSS', tag: 'css', link: 'https://www.moltonbrown.co.uk/store/features/behind-the-fragrance/coastal-cypress-sea-fennel/' },
             { client: 'Alibert', img: 'https://preview.ibb.co/ivZAx6/alibert.jpg', skills: 'HTML - CSS', tag: 'css' },
             { client: 'Baby Boy', img: 'https://preview.ibb.co/ce6CAR/babyboy.png', skills: 'HTML - CSS', tag: 'css' },
             { client: 'Foxwood', img: 'https://preview.ibb.co/eiLuPm/foxwood.png', skills: 'HTML - CSS - JS', tag: 'css' },

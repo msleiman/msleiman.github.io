@@ -24,10 +24,9 @@ block content
 
 	script#portfolio(type='text/x-handlebars-template').
 		{{#each portfolio}}
-		<div class="project">
-		<h5>{{client}}</h5>
 		<a href="{{link}}" target="_blank">
-		<img src="{{img}}" data-groups='["{{tag}}"]' alt="">
+		<div class="project" style="background-image: url({{img}})">
+		<h5>{{client}}</h5>
 		</div>
 		{{/each}}
 
