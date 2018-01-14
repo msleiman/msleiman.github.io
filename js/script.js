@@ -5,8 +5,6 @@ $( document ).ready(function() {
     $("#about").css('height', (height) - 20);
 });
 
-
-
 $(window).scroll(function(){
 
     $(".header").addClass('fixed')
@@ -45,4 +43,10 @@ $(function() {
 
     // Add the compiled html to the page
     $(".portfolio").html(theCompiledHtml);
+    $(".project").hover(function() {
+        $(this).find('#overlay').css('display', 'block');
+        console.log('hover');
+    }, function() {
+        $(this).find('#overlay').css('display', 'none');
+    });
 });

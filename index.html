@@ -38,8 +38,8 @@
   <script id="portfolio" type="text/x-handlebars-template">
     {{#each portfolio}}
     <a href="{{link}}" target="_blank">
-    <div class="project" style="background-image: url({{img}})">
-    <h5>{{client}}</h5>
+    <div class="project" id="project" style="background-image: url({{img}})">
+    <div id="overlay"><h5>{{client}}</h5></div>
     </div>
     {{/each}}
   </script>
