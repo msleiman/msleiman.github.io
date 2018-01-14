@@ -45,6 +45,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0); } }
+
 .header {
   background: #1a5f6b;
   height: 70px; }
@@ -116,12 +126,19 @@ table {
       @media (max-width: 600px) {
         .about .inner .svg-inline--fa {
           font-size: 20px; } }
+      .about .inner .svg-inline--fa:hover {
+        opacity: 1;
+        animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px; }
 
 .latestProjects {
   float: left;
   width: 100%;
   text-align: center;
-  background: #000; }
+  background: #000;
+  padding-bottom: 40px; }
   .latestProjects h2 {
     margin: 20px 30px;
     color: #fff;
@@ -186,5 +203,27 @@ table {
   float: left;
   display: none; }
 
-.aboutme, .social {
-  display: none; }
+.footer {
+  background-color: #282828;
+  padding: 20px 0 20px 0;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  position: relative; }
+  .footer a {
+    color: #fff; }
+  .footer .social {
+    color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    padding-left: 50px; }
+    .footer .social ul {
+      list-style-type: none; }
+    .footer .social li {
+      padding: 1em;
+      position: relative; }
+      .footer .social li img {
+        padding-right: 5px;
+        position: absolute;
+        left: -25px;
+        bottom: 12px; }

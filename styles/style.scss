@@ -1,4 +1,5 @@
 @import "reset";
+@import "animation";
 
 .header {
   background: #1a5f6b;
@@ -35,7 +36,7 @@
   }
 
 }
-  .header.fixed {
+.header.fixed {
     position: absolute;
     z-index: 200000;
   }
@@ -86,7 +87,14 @@
         padding-right: 20px;
         padding-top: 20px;
         @media (max-width: 600px) { font-size: 20px}
-      }
+        &:hover {
+          opacity: 1;
+          animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+          transform: translate3d(0, 0, 0);
+          backface-visibility: hidden;
+          perspective: 1000px;
+        }
+      }    
 
   }
 }
@@ -96,6 +104,7 @@
   width: 100%;
   text-align: center;
   background: #000;
+  padding-bottom: 40px;
 
 
   h2 {
@@ -161,7 +170,36 @@
   display: none;
 }
 
-.aboutme, .social {
-  display: none;
+.footer {
+    background-color: #282828;
+    padding: 20px 0 20px 0;
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    a {
+      color: #fff;
+    }
+.social {
+  color: #fff;
+  width: 300px;
+  margin: 0 auto;
+  padding-left: 50px;
+    ul {
+        list-style-type: none;
+    }
+    li {
+        padding: 1em;
+        position: relative;
+        img {
+          padding-right: 5px;
+          position: absolute;
+          left: -25px;
+          bottom: 12px;
+        }
+    }
 }
+}
+
+
 

@@ -2,7 +2,7 @@
 
 $( document ).ready(function() {
     var height = window.innerHeight;
-    $("#about").css('height', (height) - 40);
+    $("#about").css('height', (height) - 20);
 });
 
 
