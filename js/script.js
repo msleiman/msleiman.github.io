@@ -22,7 +22,7 @@ $(function() {
     // Define our data object
     var context = {
         portfolio: [
-            { client: 'Trailfinders', img: 'https://api.miniature.io/?width=668&height=415&delay=5&url=https%3A%2F%2Fwww.trailfinders.com%2Fhotels&dt=1551647781510', skills: 'Js - CSS', tag: 'css', link: 'https://www.trailfinders.com/hotels' },
+            { client: 'Trailfinders', img: 'images/trailfinders.png', skills: 'Js - CSS', tag: 'css', link: 'https://www.trailfinders.com/hotels' },
             { client: 'DHL - Timeline', img: 'images/dhl-timeline.png', skills: 'Js - CSS', tag: 'css', link: 'https://goo.gl/a4jcvq' },
             { client: 'Maverick - Allianz Project', img: 'images/allianzriseofdrones.png', skills: 'Js - CSS', tag: 'css', link: 'https://www.allianzriseofdrones.com/' },
             { client: 'Molton Brown - INTO THE UNCHARTED', img: 'images/coastal-cypress.png', skills: 'Js - CSS', tag: 'css', link: 'https://www.moltonbrown.co.uk/store/features/behind-the-fragrance/coastal-cypress-sea-fennel/' },
