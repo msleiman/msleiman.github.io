@@ -133,7 +133,7 @@
       position: relative;
       margin-right: 1%;
       margin-bottom: 10px;
-      width: 24%;
+      width: 32%;
       height: 200px;
       background-size: cover;
       background-position: left top;
@@ -155,6 +155,7 @@
       h5 {
         padding-top: 80px;
         padding-bottom: 10px;
+        font-size: 18px;
       }
       span {
         margin-top: 10px;
@@ -165,17 +166,6 @@
     }
 
     }
-
-    // h5 {
-    //   position: absolute;
-    //   bottom: 0;
-    //   left: 0;
-    //   width: 100%;
-    //   background: white;
-    //   padding: 10px 0 10px;
-    // }
-
-
   } // portfolio
 }
 

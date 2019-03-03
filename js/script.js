@@ -22,10 +22,11 @@ $(function() {
     // Define our data object
     var context = {
         portfolio: [
-            { client: 'DHL - Timeline', img: '/images/dhl-timeline.png', skills: 'Js - CSS', tag: 'css', link: 'https://goo.gl/a4jcvq' },
-            { client: 'Maverick - Allianz Project', img: '/images/allianzriseofdrones.png', skills: 'Js - CSS', tag: 'css', link: 'https://www.allianzriseofdrones.com/' },
-            { client: 'Molton Brown - INTO THE UNCHARTED', img: '/images/coastal-cypress.png', skills: 'Js - CSS', tag: 'css', link: 'https://www.moltonbrown.co.uk/store/features/behind-the-fragrance/coastal-cypress-sea-fennel/' },
-            { client: 'Alibert', img: 'https://preview.ibb.co/ivZAx6/alibert.jpg', skills: 'HTML - CSS', tag: 'css' },
+            { client: 'Trailfinders', img: 'https://api.miniature.io/?width=668&height=415&delay=5&url=https%3A%2F%2Fwww.trailfinders.com%2Fhotels&dt=1551647781510', skills: 'Js - CSS', tag: 'css', link: 'https://www.trailfinders.com/hotels' },
+            { client: 'DHL - Timeline', img: 'images/dhl-timeline.png', skills: 'Js - CSS', tag: 'css', link: 'https://goo.gl/a4jcvq' },
+            { client: 'Maverick - Allianz Project', img: 'images/allianzriseofdrones.png', skills: 'Js - CSS', tag: 'css', link: 'https://www.allianzriseofdrones.com/' },
+            { client: 'Molton Brown - INTO THE UNCHARTED', img: 'images/coastal-cypress.png', skills: 'Js - CSS', tag: 'css', link: 'https://www.moltonbrown.co.uk/store/features/behind-the-fragrance/coastal-cypress-sea-fennel/' },
+            //{ client: 'Alibert', img: 'https://preview.ibb.co/ivZAx6/alibert.jpg', skills: 'HTML - CSS', tag: 'css' },
             { client: 'Baby Boy', img: 'https://preview.ibb.co/ce6CAR/babyboy.png', skills: 'HTML - CSS', tag: 'css' },
             { client: 'Foxwood', img: 'https://preview.ibb.co/eiLuPm/foxwood.png', skills: 'HTML - CSS - JS', tag: 'css' },
             { client: 'Hala Badredine', img: 'https://preview.ibb.co/n7BOH6/halabadredine.png', skills: 'HTML - CSS', tag: 'css' },
@@ -45,7 +46,6 @@ $(function() {
     $(".portfolio").html(theCompiledHtml);
     $(".project").hover(function() {
         $(this).find('#overlay').css('display', 'block');
-        console.log('hover');
     }, function() {
         $(this).find('#overlay').css('display', 'none');
     });

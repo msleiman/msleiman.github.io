@@ -165,7 +165,7 @@ table {
       position: relative;
       margin-right: 1%;
       margin-bottom: 10px;
-      width: 24%;
+      width: 32%;
       height: 200px;
       background-size: cover;
       background-position: left top;
@@ -197,7 +197,8 @@ table {
         display: none; }
         .latestProjects .portfolio .project #overlay h5 {
           padding-top: 80px;
-          padding-bottom: 10px; }
+          padding-bottom: 10px;
+          font-size: 18px; }
         .latestProjects .portfolio .project #overlay span {
           margin-top: 10px;
           background: black;
