@@ -1,0 +1,8 @@
+
+AuthType Basic
+
+AuthName "about me ?"
+
+
+
+AuthUserFile "/home/hala/.htpasswds/public_html/aboutme/passwd"

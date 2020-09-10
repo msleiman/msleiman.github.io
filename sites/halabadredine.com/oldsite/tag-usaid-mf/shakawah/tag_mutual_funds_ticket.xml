@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form url="tag_mutual_funds_ticket.php"
+ window="_self"
+ method="POST"
+ fontname="MS Sans Serif"
+ width="500"
+ height="525"
+ bkcolor="0xFFCC66"
+ outlinecolor="0xFFFFFF"
+ fontcolor="0x000000"
+ themecolor="0xFFFF99"
+ fontcolor2="#000000"
+ bkcolor2="#FFFFFF"
+ includeresults="false"
+ emailuser="false">
+
+<hidden
+ name="thankyoupage"
+ value="http://tagmutualfunds.com/thanks.html"
+></hidden>
+
+<hidden
+ name="mailto"
+ value="ticket@tagmutualfunds.com"
+></hidden>
+
+<hidden
+ name="subject"
+ value="Tagmutualfunds Ticket"
+></hidden>
+
+<image
+ image="almoustat3i.jpeg"
+ x="367"
+ y="50"
+></image>
+
+<image
+ image="adress.jpeg"
+ x="362"
+ y="83"
+></image>
+
+<image
+ image="telnumber.jpeg"
+ x="367"
+ y="117"
+></image>
+
+<image
+ image="faxnumber.jpeg"
+ x="350"
+ y="155"
+></image>
+
+<image
+ image="e-mail.jpeg"
+ x="361"
+ y="191"
+></image>
+
+<image
+ image="mawdou3.jpeg"
+ x="361"
+ y="237"
+></image>
+
+<image
+ image="shakwah.jpeg"
+ x="389"
+ y="287"
+></image>
+
+<image
+ image="header.jpeg"
+ x="101"
+ y="0"
+></image>
+
+<textarea
+ name="Name"
+ x="73"
+ y="56"
+ w="279"
+ h="23"
+ initvalue=""
+ wordwrap="true"
+ required="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textarea
+ name="adress"
+ x="73"
+ y="88"
+ w="279"
+ h="23"
+ initvalue=""
+ wordwrap="true"
+ required="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textarea
+ name="Telephone number"
+ x="73"
+ y="120"
+ w="279"
+ h="23"
+ initvalue=""
+ wordwrap="true"
+ required="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textarea
+ name="Fax Number"
+ x="73"
+ y="156"
+ w="279"
+ h="23"
+ initvalue=""
+ wordwrap="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<textinput
+ name="E-mail Adress"
+ x="74"
+ y="193"
+ w="278"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+ emailbox="true"
+>
+</textinput>
+
+<textinput
+ name="Ticket Problem"
+ x="74"
+ y="244"
+ w="279"
+ h="22"
+ initvalue=""
+ bkcolor="0xFFFFFF"
+  fontname="Arial"
+  fontcolor="0x000000"
+>
+</textinput>
+
+<textarea
+ name="Description of the ticket"
+ x="28"
+ y="296"
+ w="338"
+ h="164"
+ initvalue=""
+ wordwrap="true"
+ bkcolor="0xFFFFFF"
+  fontsize="12"
+  fontname="Arial"
+  fontcolor="0x000000"
+></textarea>
+
+<submitbutton
+ name="Submit Button 1"
+ x="188"
+ y="496"
+ w="100"
+ h="20"
+ label="Submit"
+ fontname="Arial"
+ fontcolor="0x000000"
+  fontsize="12"
+></submitbutton>
+
+</form>

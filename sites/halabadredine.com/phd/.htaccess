@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "PHD"
+AuthUserFile "/home/hala/.htpasswds/public_html/phd/passwd"
+require valid-user
