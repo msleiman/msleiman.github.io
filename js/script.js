@@ -30,7 +30,7 @@ $(function() {
             { client: 'Baby Boy', img: 'images/babyboy.png', skills: 'HTML - CSS', tag: 'css' },
             { client: 'Foxwood', img: 'images/foxwood.png', skills: 'HTML - CSS - JS', tag: 'css' },
             { client: 'Hala Badredine', img: 'images/halabadredine.png', skills: 'HTML - CSS', tag: 'css' },
-            { client: 'Portfolio', img: 'images/msleiman_portfolio.jpg', skills: 'HTML - CSS', tag: 'css' },
+            { client: 'Portfolio', img: 'images/msleimanportfolio.jpg', skills: 'HTML - CSS', tag: 'css' },
             { client: 'Outdoors', img: 'images/outdoors.jpg', skills: 'skills', tag: 'css' },
             { client: 'Robot and Spark', img: 'images/robot_and_spark_small.jpg', skills: 'skills', tag: 'css' },
             { client: 'Sitara', img: 'images/sitara.png', skills: 'skills', tag: 'css' },
